@@ -2,7 +2,7 @@
 
 This event is used to create dynamic events in streaming.
 
-Dynamic events in streaming are scripts on disk that, upon completion, return a handback that is sent on the SNAP network.
+Dynamic events in streaming are scripts on disk, that upon completion, return a handback that is sent on the SNAP network.
 
 
 ## Parameters
@@ -27,3 +27,6 @@ Dynamic events in streaming are scripts on disk that, upon completion, return a 
     }
 }
 ```
+
+When sending this event, the first packet sent to the stream will be used as a dynamic event as a script.
+

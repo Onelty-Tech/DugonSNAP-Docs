@@ -15,7 +15,7 @@ With this event you can create streams on any client.
 
 ```json
 {
-    "createStream" {
+    "createStream": {
         "name": "coordinates",
         "type": "",
         "size": 12

@@ -14,7 +14,7 @@ This event is used to take a packet from one stream and send it to another strea
 
 ```json
 {
-    "requestData" {
+    "requestData": {
         "user": "Sophia",
         "streaming": "news",
         "enqueue": "MyNews"

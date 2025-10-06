@@ -12,6 +12,6 @@ This stream event only works with the "SCRIPT" tag, it takes the first packet se
 
 ```json
 {
-    "startScript" "main.py"
+    "startScript": "main.py"
 }
 ```
